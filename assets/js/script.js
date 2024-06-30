@@ -157,3 +157,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+// This link should be used for the integration of the Contact Form 
+// https://dev.to/kromate/connecting-your-html-forms-to-a-google-spreadsheet-p9h

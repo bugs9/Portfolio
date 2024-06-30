@@ -598,7 +598,7 @@ main {
 .testimonials-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-300 );
   line-height: 1.6;
   display: -webkit-box;
   line-clamp: 4;
@@ -1151,6 +1151,13 @@ main {
   gap: 25px;
   margin-bottom: 25px;
 }
+.email-field{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin-bottom: 2rem;
+
+}
 
 .form-input {
   color: var(--white-2);
@@ -1160,6 +1167,22 @@ main {
   border: 1px solid var(--jet);
   border-radius: 14px;
   outline: none;
+}
+
+.input-wrapper-email { grid-template-columns: 1fr; }
+
+
+.form-input-email{
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 20px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  outline: none;
+  margin-bottom: 2rem;
+  width: 100%;
+
 }
 
 .form-input::placeholder { font-weight: var(--fw-500); }
@@ -1337,7 +1360,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 10px; }
 
   .avatar-box img { width: 120px; }
 
@@ -1830,6 +1853,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     z-index: 1;
   }
 
@@ -1855,7 +1880,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-overflow: ellipsis;
   }
 
