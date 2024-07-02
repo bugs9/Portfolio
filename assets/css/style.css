@@ -562,7 +562,7 @@ main {
 
 .testimonials { margin-bottom: 30px; }
 
-.testimonials-title { margin-bottom: 20px; }
+.testimonials-title { margin-bottom: 5px; }
 
 .testimonials-list {
   display: flex;
